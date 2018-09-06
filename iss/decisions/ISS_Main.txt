@@ -1,0 +1,17 @@
+# ISS General decisions
+country_decisions = 
+{	
+	iss_main_menu = 
+	{
+		major = yes
+		potential = 
+		{
+			ai = no
+		}
+		effect = 
+		{
+			country_event = { id = iss_scores.999 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

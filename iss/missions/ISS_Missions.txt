@@ -1,0 +1,2068 @@
+iss_missions_1 = {
+	slot = 1
+	
+	potential = {
+		
+	}
+
+	iss_tier_1_provinces = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		completed_by = 2018.1.7
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 227
+
+				province_id = 219
+
+				province_id = 183
+
+				province_id = 236
+
+				province_id = 4383
+
+				province_id = 50
+
+				province_id = 118
+
+				province_id = 112
+
+				province_id = 1
+
+				province_id = 257
+
+				province_id = 151
+
+				province_id = 295
+
+				province_id = 361
+
+				province_id = 344
+
+				province_id = 416
+
+				province_id = 446
+
+				province_id = 1224
+
+				province_id = 522
+
+				province_id = 2054
+
+				province_id = 541
+
+				province_id = 563
+
+
+			}
+		}
+		trigger = {
+			227 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			219 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			183 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			236 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4383 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			50 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			118 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			112 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			257 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			151 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			295 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			361 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			344 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			416 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			446 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1224 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			522 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2054 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			541 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			563 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+
+		}
+		effect = {
+		}
+	}
+}
+
+iss_missions_2 = {
+	slot = 2
+	
+	potential = {
+		
+	}
+
+	iss_tier_2_provinces = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		completed_by = 2018.1.7
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 197
+
+				province_id = 87
+
+				province_id = 1874
+
+				province_id = 75
+
+				province_id = 101
+
+				province_id = 770
+
+				province_id = 1756
+
+				province_id = 293
+
+				province_id = 33
+
+				province_id = 286
+
+				province_id = 2313
+
+				province_id = 1751
+
+				province_id = 408
+
+				province_id = 387
+
+				province_id = 2999
+
+				province_id = 578
+
+				province_id = 552
+
+
+			}
+		}
+		trigger = {
+			197 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			87 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1874 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			75 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			101 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			770 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1756 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			293 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			33 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			286 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2313 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1751 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			408 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			387 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2999 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			578 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			552 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+
+		}
+		effect = {
+		}
+	}
+}
+
+iss_missions_3 = {
+	slot = 3
+	
+	potential = {
+		
+	}
+
+	iss_tier_3_provinces = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		completed_by = 2018.1.7
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 223
+
+				province_id = 201
+
+				province_id = 248
+
+				province_id = 1744
+
+				province_id = 1876
+
+				province_id = 45
+
+				province_id = 73
+
+				province_id = 266
+
+				province_id = 104
+
+				province_id = 116
+
+				province_id = 125
+
+				province_id = 12
+
+				province_id = 43
+
+				province_id = 153
+
+				province_id = 137
+
+				province_id = 1951
+
+				province_id = 280
+
+				province_id = 38
+
+				province_id = 324
+
+				province_id = 379
+
+				province_id = 163
+
+				province_id = 341
+
+				province_id = 423
+
+				province_id = 410
+
+				province_id = 2213
+
+				province_id = 385
+
+				province_id = 1205
+
+				province_id = 506
+
+				province_id = 504
+
+				province_id = 2058
+
+				province_id = 1948
+
+				province_id = 536
+
+				province_id = 584
+
+				province_id = 615
+
+				province_id = 1821
+
+				province_id = 700
+
+				province_id = 679
+
+
+			}
+		}
+		trigger = {
+			223 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			201 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			248 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1744 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1876 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			45 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			73 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			266 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			104 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			116 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			125 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			12 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			43 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			153 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			137 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1951 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			280 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			38 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			324 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			379 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			163 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			341 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			423 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			410 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2213 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			385 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1205 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			506 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			504 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2058 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1948 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			536 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			584 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			615 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1821 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			700 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			679 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+
+		}
+		effect = {
+		}
+	}
+}
+
+iss_missions_4 = {
+	slot = 4
+	
+	potential = {
+		
+	}
+
+	iss_tier_4_provinces = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		completed_by = 2018.1.7
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 206
+
+				province_id = 230
+
+				province_id = 213
+
+				province_id = 174
+
+				province_id = 203
+
+				province_id = 4368
+
+				province_id = 1931
+
+				province_id = 85
+
+				province_id = 57
+
+				province_id = 2957
+
+				province_id = 1247
+
+				province_id = 113
+
+				province_id = 2983
+
+				province_id = 130
+
+				province_id = 17
+
+				province_id = 27
+
+				province_id = 25
+
+				province_id = 262
+
+				province_id = 40
+
+				province_id = 4239
+
+				province_id = 1766
+
+				province_id = 146
+
+				province_id = 150
+
+				province_id = 274
+
+				province_id = 4116
+
+				province_id = 284
+
+				province_id = 464
+
+				province_id = 326
+
+				province_id = 330
+
+				province_id = 418
+
+				province_id = 382
+
+				province_id = 321
+
+				province_id = 337
+
+				province_id = 354
+
+				province_id = 396
+
+				province_id = 400
+
+				province_id = 4341
+
+				province_id = 4329
+
+				province_id = 454
+
+				province_id = 476
+
+				province_id = 1234
+
+				province_id = 2757
+
+				province_id = 4062
+
+				province_id = 1201
+
+				province_id = 1192
+
+				province_id = 1185
+
+				province_id = 1177
+
+				province_id = 4079
+
+				province_id = 1139
+
+				province_id = 1113
+
+				province_id = 1120
+
+				province_id = 1132
+
+				province_id = 1157
+
+				province_id = 994
+
+				province_id = 965
+
+				province_id = 1500
+
+				province_id = 893
+
+				province_id = 2021
+
+				province_id = 852
+
+				province_id = 484
+
+				province_id = 490
+
+				province_id = 835
+
+				province_id = 831
+
+				province_id = 808
+
+				province_id = 763
+
+				province_id = 778
+
+				province_id = 2076
+
+				province_id = 2030
+
+				province_id = 572
+
+				province_id = 2092
+
+				province_id = 557
+
+				province_id = 586
+
+				province_id = 600
+
+				province_id = 596
+
+				province_id = 2673
+
+				province_id = 636
+
+				province_id = 630
+
+				province_id = 641
+
+				province_id = 2376
+
+				province_id = 656
+
+				province_id = 667
+
+				province_id = 669
+
+				province_id = 684
+
+				province_id = 2174
+
+				province_id = 1816
+
+				province_id = 735
+
+				province_id = 1020
+
+
+			}
+		}
+		trigger = {
+			206 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			230 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			213 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			174 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			203 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4368 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1931 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			85 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			57 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2957 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1247 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			113 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2983 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			130 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			17 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			27 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			25 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			262 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			40 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4239 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1766 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			146 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			150 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			274 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4116 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			284 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			464 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			326 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			330 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			418 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			382 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			321 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			337 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			354 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			396 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			400 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4341 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4329 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			454 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			476 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1234 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2757 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4062 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1201 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1192 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1185 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1177 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4079 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1139 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1113 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1120 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1132 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1157 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			994 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			965 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1500 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			893 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2021 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			852 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			484 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			490 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			835 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			831 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			808 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			763 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			778 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2076 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2030 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			572 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2092 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			557 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			586 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			600 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			596 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2673 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			636 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			630 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			641 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2376 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			656 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			667 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			669 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			684 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2174 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1816 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			735 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1020 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+
+		}
+		effect = {
+		}
+	}
+}
+
+iss_missions_5 = {
+	slot = 5
+	
+	potential = {
+		
+	}
+
+	iss_tier_5_provinces = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		completed_by = 2018.1.7
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 227
+
+				province_id = 219
+
+				province_id = 183
+
+				province_id = 236
+
+				province_id = 4383
+
+				province_id = 50
+
+				province_id = 118
+
+				province_id = 112
+
+				province_id = 1
+
+				province_id = 257
+
+				province_id = 151
+
+				province_id = 295
+
+				province_id = 361
+
+				province_id = 344
+
+				province_id = 416
+
+				province_id = 446
+
+				province_id = 1224
+
+				province_id = 522
+
+				province_id = 2054
+
+				province_id = 541
+
+				province_id = 563
+
+				province_id = 197
+
+				province_id = 87
+
+				province_id = 1874
+
+				province_id = 75
+
+				province_id = 101
+
+				province_id = 770
+
+				province_id = 1756
+
+				province_id = 293
+
+				province_id = 33
+
+				province_id = 286
+
+				province_id = 2313
+
+				province_id = 1751
+
+				province_id = 408
+
+				province_id = 387
+
+				province_id = 2999
+
+				province_id = 578
+
+				province_id = 552
+
+				province_id = 223
+
+				province_id = 201
+
+				province_id = 248
+
+				province_id = 1744
+
+				province_id = 1876
+
+				province_id = 45
+
+				province_id = 73
+
+				province_id = 266
+
+				province_id = 104
+
+				province_id = 116
+
+				province_id = 125
+
+				province_id = 12
+
+				province_id = 43
+
+				province_id = 153
+
+				province_id = 137
+
+				province_id = 1951
+
+				province_id = 280
+
+				province_id = 38
+
+				province_id = 324
+
+				province_id = 379
+
+				province_id = 163
+
+				province_id = 341
+
+				province_id = 423
+
+				province_id = 410
+
+				province_id = 2213
+
+				province_id = 385
+
+				province_id = 1205
+
+				province_id = 506
+
+				province_id = 504
+
+				province_id = 2058
+
+				province_id = 1948
+
+				province_id = 536
+
+				province_id = 584
+
+				province_id = 615
+
+				province_id = 1821
+
+				province_id = 700
+
+				province_id = 679
+
+				province_id = 206
+
+				province_id = 230
+
+				province_id = 213
+
+				province_id = 174
+
+				province_id = 203
+
+				province_id = 4368
+
+				province_id = 1931
+
+				province_id = 85
+
+				province_id = 57
+
+				province_id = 2957
+
+				province_id = 1247
+
+				province_id = 113
+
+				province_id = 2983
+
+				province_id = 130
+
+				province_id = 17
+
+				province_id = 27
+
+				province_id = 25
+
+				province_id = 262
+
+				province_id = 40
+
+				province_id = 4239
+
+				province_id = 1766
+
+				province_id = 146
+
+				province_id = 150
+
+				province_id = 274
+
+				province_id = 4116
+
+				province_id = 284
+
+				province_id = 464
+
+				province_id = 326
+
+				province_id = 330
+
+				province_id = 418
+
+				province_id = 382
+
+				province_id = 321
+
+				province_id = 337
+
+				province_id = 354
+
+				province_id = 396
+
+				province_id = 400
+
+				province_id = 4341
+
+				province_id = 4329
+
+				province_id = 454
+
+				province_id = 476
+
+				province_id = 1234
+
+				province_id = 2757
+
+				province_id = 4062
+
+				province_id = 1201
+
+				province_id = 1192
+
+				province_id = 1185
+
+				province_id = 1177
+
+				province_id = 4079
+
+				province_id = 1139
+
+				province_id = 1113
+
+				province_id = 1120
+
+				province_id = 1132
+
+				province_id = 1157
+
+				province_id = 994
+
+				province_id = 965
+
+				province_id = 1500
+
+				province_id = 893
+
+				province_id = 2021
+
+				province_id = 852
+
+				province_id = 484
+
+				province_id = 490
+
+				province_id = 835
+
+				province_id = 831
+
+				province_id = 808
+
+				province_id = 763
+
+				province_id = 778
+
+				province_id = 2076
+
+				province_id = 2030
+
+				province_id = 572
+
+				province_id = 2092
+
+				province_id = 557
+
+				province_id = 586
+
+				province_id = 600
+
+				province_id = 596
+
+				province_id = 2673
+
+				province_id = 636
+
+				province_id = 630
+
+				province_id = 641
+
+				province_id = 2376
+
+				province_id = 656
+
+				province_id = 667
+
+				province_id = 669
+
+				province_id = 684
+
+				province_id = 2174
+
+				province_id = 1816
+
+				province_id = 735
+
+				province_id = 1020
+
+
+			}
+		}
+		trigger = {
+			227 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			219 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			183 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			236 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4383 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			50 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			118 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			112 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			257 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			151 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			295 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			361 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			344 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			416 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			446 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1224 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			522 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2054 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			541 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			563 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			197 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			87 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1874 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			75 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			101 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			770 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1756 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			293 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			33 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			286 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2313 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1751 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			408 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			387 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2999 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			578 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			552 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			223 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			201 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			248 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1744 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1876 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			45 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			73 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			266 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			104 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			116 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			125 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			12 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			43 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			153 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			137 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1951 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			280 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			38 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			324 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			379 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			163 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			341 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			423 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			410 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2213 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			385 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1205 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			506 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			504 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2058 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1948 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			536 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			584 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			615 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1821 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			700 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			679 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			206 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			230 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			213 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			174 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			203 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4368 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1931 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			85 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			57 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2957 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1247 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			113 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2983 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			130 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			17 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			27 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			25 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			262 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			40 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4239 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1766 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			146 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			150 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			274 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4116 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			284 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			464 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			326 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			330 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			418 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			382 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			321 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			337 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			354 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			396 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			400 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4341 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4329 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			454 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			476 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1234 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2757 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4062 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1201 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1192 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1185 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1177 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			4079 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1139 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1113 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1120 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1132 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1157 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			994 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			965 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1500 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			893 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2021 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			852 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			484 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			490 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			835 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			831 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			808 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			763 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			778 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2076 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2030 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			572 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2092 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			557 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			586 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			600 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			596 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2673 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			636 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			630 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			641 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2376 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			656 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			667 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			669 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			684 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			2174 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1816 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			735 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			1020 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+
+		}
+		effect = {
+		}
+	}
+}

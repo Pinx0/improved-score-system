@@ -1,0 +1,615 @@
+namespace = iss_scores
+
+################
+# CALCULATIONS #
+################
+
+#Add scores
+country_event = 
+{
+	id = iss_scores.101
+	title = "iss_empty_string"
+	desc = "iss_empty_string"
+	hidden = yes
+	trigger = 
+	{
+		OR = 
+		{
+			has_global_flag = iss_update_scores_requested
+			AND =
+			{
+				is_month = 0
+				NOT = { is_month = 1 }
+				had_global_flag = { flag = iss_added_score days = 32 }
+			}
+		}
+	}
+	mean_time_to_happen = 
+	{
+		days = 1
+	}
+	immediate = 
+	{
+		clr_global_flag = iss_update_scores_requested
+		clr_global_flag = iss_added_score
+		set_global_flag = iss_added_score
+	}
+	option =
+	{
+		name = "iss_scores.999.optz"
+		set_variable = 
+		{
+			which = iss_last_year_score
+			value = 0
+		}
+		every_country =
+		{
+			set_variable = 
+			{
+				which = iss_last_year_score
+				value = 0
+			}
+		}
+		every_province = 
+		{
+			limit = 
+			{ 
+				controlled_by = owner
+				is_core = owner
+				has_province_flag = iss_province_type_1 
+			}
+			owner = 
+			{
+				set_variable = 
+				{
+					which = year_multiplier
+					value = 1
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1500
+						NOT = { is_year = 1550 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.375
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1550
+						NOT = { is_year = 1600 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.65
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1600
+						NOT = { is_year = 1650 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.925
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1650
+						NOT = { is_year = 1700 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 2.2
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1700
+						NOT = { is_year = 1750 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 4.125
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1750
+						NOT = { is_year = 1800 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 6.875
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1800
+						NOT = { is_year = 1821 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 13.1
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1821
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 137.5
+					}
+				}
+				set_variable = 
+				{
+					which = add_score
+					value = 10
+				}
+				multiply_variable =
+				{
+					which = add_score
+					which = year_multiplier
+				}
+				change_variable = 
+				{
+					which = iss_score
+					which = add_score
+				}
+				change_variable = 
+				{
+					which = iss_last_year_score
+					which = add_score
+				}
+			}
+		}
+		every_province = 
+		{
+			limit = 
+			{ 
+				controlled_by = owner
+				is_core = owner
+				has_province_flag = iss_province_type_2
+			}
+			owner = 
+			{
+				set_variable = 
+				{
+					which = year_multiplier
+					value = 1
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1500
+						NOT = { is_year = 1550 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.375
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1550
+						NOT = { is_year = 1600 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.65
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1600
+						NOT = { is_year = 1650 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.925
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1650
+						NOT = { is_year = 1700 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 2.2
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1700
+						NOT = { is_year = 1750 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 4.125
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1750
+						NOT = { is_year = 1800 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 6.875
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1800
+						NOT = { is_year = 1821 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 13.1
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1821
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 137.5
+					}
+				}
+				set_variable = 
+				{
+					which = add_score
+					value = 4
+				}
+				multiply_variable =
+				{
+					which = add_score
+					which = year_multiplier
+				}
+				change_variable = 
+				{
+					which = iss_score
+					which = add_score
+				}
+				change_variable = 
+				{
+					which = iss_last_year_score
+					which = add_score
+				}
+			}
+		}
+		every_province = 
+		{
+			limit = 
+			{ 
+				controlled_by = owner
+				is_core = owner
+				has_province_flag = iss_province_type_3
+			}
+			owner = 
+			{
+				set_variable = 
+				{
+					which = year_multiplier
+					value = 1
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1500
+						NOT = { is_year = 1550 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.375
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1550
+						NOT = { is_year = 1600 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.65
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1600
+						NOT = { is_year = 1650 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.925
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1650
+						NOT = { is_year = 1700 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 2.2
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1700
+						NOT = { is_year = 1750 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 4.125
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1750
+						NOT = { is_year = 1800 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 6.875
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1800
+						NOT = { is_year = 1821 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 13.1
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1821
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 137.5
+					}
+				}
+				set_variable = 
+				{
+					which = add_score
+					value = 2
+				}
+				multiply_variable =
+				{
+					which = add_score
+					which = year_multiplier
+				}
+				change_variable = 
+				{
+					which = iss_score
+					which = add_score
+				}
+				change_variable = 
+				{
+					which = iss_last_year_score
+					which = add_score
+				}
+			}
+		}
+		every_province = 
+		{
+			limit = 
+			{ 
+				controlled_by = owner
+				is_core = owner
+				has_province_flag = iss_province_type_4
+			}
+			owner = 
+			{
+				set_variable = 
+				{
+					which = year_multiplier
+					value = 1
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1500
+						NOT = { is_year = 1550 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.375
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1550
+						NOT = { is_year = 1600 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.65
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1600
+						NOT = { is_year = 1650 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 1.925
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1650
+						NOT = { is_year = 1700 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 2.2
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1700
+						NOT = { is_year = 1750 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 4.125
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1750
+						NOT = { is_year = 1800 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 6.875
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1800
+						NOT = { is_year = 1821 }
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 13.1
+					}
+				}
+				if =
+				{
+					limit = 
+					{
+						is_year = 1821
+					}
+					set_variable = 
+					{
+						which = year_multiplier
+						value = 137.5
+					}
+				}
+				set_variable = 
+				{
+					which = add_score
+					value = 1
+				}
+				multiply_variable =
+				{
+					which = add_score
+					which = year_multiplier
+				}
+				change_variable = 
+				{
+					which = iss_score
+					which = add_score
+				}
+				change_variable = 
+				{
+					which = iss_last_year_score
+					which = add_score
+				}
+			}
+		}
+		country_event = { id = iss_scores.200 }
+	}
+}

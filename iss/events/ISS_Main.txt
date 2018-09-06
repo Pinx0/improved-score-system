@@ -1,0 +1,292 @@
+namespace = iss_scores
+
+#############
+# MAIN MENU #
+#############
+
+#Main menu
+country_event = 
+{
+	id = iss_scores.999
+	title = "iss_scores.999.t"
+	desc = "iss_scores.999.d"
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes #decisions/ISS_Menu/iss_main_menu 
+	
+	option = 
+	{
+		name = "iss_scores.999.opta"
+		highlight = yes
+		country_event = { id = iss_scores.120 }
+	}
+	option = 
+	{
+		trigger =
+		{
+			has_global_flag = iss_show_ia_scores
+		}
+		name = "iss_scores.999.optb"
+		hidden_effect = 
+		{
+			country_event = { id = iss_scores.130 }
+		}
+	}
+	option = 
+	{
+		trigger =
+		{
+			NOT = { has_global_flag = iss_show_ia_scores }
+		}
+		name = "iss_scores.999.optc"
+		hidden_effect = 
+		{
+			country_event = { id = iss_scores.131 }
+		}
+	}
+	option = 
+	{
+		name = "iss_scores.999.optz"
+	}
+}
+
+###########
+# RESULTS #
+###########
+
+#Top 1 - 10
+country_event = 
+{
+	id = iss_scores.120
+	title = "iss_scores.120.t"
+	desc = "iss_scores.120.d"
+	picture = HRE_eventPicture
+	is_triggered_only = yes #iss_scores.999 & 121
+	option = 
+	{
+		name = "iss_scores.120.own"
+		highlight = yes
+		country_event = { id = iss_scores.140 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.next"
+		country_event = { id = iss_scores.121 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.prev"
+		country_event = { id = iss_scores.140 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.opty"
+		country_event = { id = iss_scores.999 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.optz"
+	}
+	
+}
+#Top 11 - 20
+country_event = 
+{
+	id = iss_scores.121
+	title = "iss_scores.121.t"
+	desc = "iss_scores.121.d"
+	picture = HRE_eventPicture
+	is_triggered_only = yes #iss_scores.122 & 120
+	option = 
+	{
+		name = "iss_scores.120.own"
+		highlight = yes
+		country_event = { id = iss_scores.141 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.next"
+		country_event = { id = iss_scores.122 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.prev"
+		country_event = { id = iss_scores.120 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.opty"
+		country_event = { id = iss_scores.999 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.optz"
+	}
+	
+}
+#Top 21 - 30
+country_event = 
+{
+	id = iss_scores.122
+	title = "iss_scores.122.t"
+	desc = "iss_scores.122.d"
+	picture = HRE_eventPicture
+	is_triggered_only = yes #iss_scores.123 & 121
+	option = 
+	{
+		name = "iss_scores.120.own"
+		highlight = yes
+		country_event = { id = iss_scores.142 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.next"
+		country_event = { id = iss_scores.123 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.prev"
+		country_event = { id = iss_scores.121 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.opty"
+		country_event = { id = iss_scores.999 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.optz"
+	}
+	
+}
+country_event = 
+{
+	id = iss_scores.123
+	title = "iss_scores.123.t"
+	desc = "iss_scores.123.d"
+	picture = HRE_eventPicture
+	is_triggered_only = yes #iss_scores.122
+	
+	option = 
+	{
+		name = "iss_scores.120.own"
+		highlight = yes
+		country_event = { id = iss_scores.143 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.next"
+		country_event = { id = iss_scores.143 }
+	}
+	option = 
+	{
+		name = "iss_scores.120.prev"
+		country_event = { id = iss_scores.122 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.opty"
+		country_event = { id = iss_scores.999 }
+	}
+	option = 
+	{
+		name = "iss_scores.999.optz"
+	}
+	
+}
+#Disable show IA countries
+country_event = 
+{
+	id = iss_scores.130
+	title = "iss_empty_string"
+	desc = "iss_empty_string"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.999
+	immediate =
+	{ 
+		clr_global_flag = iss_show_ia_scores
+		set_global_flag = iss_update_scores_requested
+	}
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.999 }
+	}
+	
+}
+#Enable show IA countries
+country_event = 
+{
+	id = iss_scores.131
+	title = "iss_empty_string"
+	desc = "iss_empty_string"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.999
+	immediate =
+	{ 
+		set_global_flag = iss_show_ia_scores
+		set_global_flag = iss_update_scores_requested
+	}
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.999 }
+	}
+	
+}
+#Show menu 120 again
+country_event = 
+{
+	id = iss_scores.140
+	title = "iss_scores.120.t"
+	desc = "iss_scores.120.d"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.120
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.120 }
+	}
+}
+#Show menu 121 again
+country_event = 
+{
+	id = iss_scores.141
+	title = "iss_scores.121.t"
+	desc = "iss_scores.121.d"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.121
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.121 }
+	}
+}
+#Show menu 122 again
+country_event = 
+{
+	id = iss_scores.142
+	title = "iss_scores.122.t"
+	desc = "iss_scores.122.d"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.122
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.122 }
+	}
+}
+#Show menu 123 again
+country_event = 
+{
+	id = iss_scores.143
+	title = "iss_scores.123.t"
+	desc = "iss_scores.123.d"
+	hidden = yes
+	is_triggered_only = yes #iss_scores.123
+	option = 
+	{ 
+		name = "iss_scores.999.optz"
+		country_event = { id = iss_scores.123 }
+	}
+}

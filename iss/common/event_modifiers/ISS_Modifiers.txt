@@ -1,19 +1,19 @@
-province_type_1 = 
+iss_province_type_1 = 
 {
 	province_trade_power_value = 0.01
 	picture = "iss_star_gold"
 }
-province_type_2 = 
+iss_province_type_2 = 
 {
 	province_trade_power_value = 0.01
 	picture = "iss_star_silver"
 }
-province_type_3 = 
+iss_province_type_3 = 
 {
 	province_trade_power_value = 0.01
 	picture = "iss_star_bronze"
 }
-province_type_4 = 
+iss_province_type_4 = 
 {
 	province_trade_power_value = 0.01
 	picture = "iss_star_blue"

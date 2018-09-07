@@ -1,27 +1,5 @@
 defined_text = 
 {
-	name = GetOpenParenthesis
-	random = no
-	text = 
-	{
-		localisation_key = iss_open_parenthesis
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	
-}
-defined_text = 
-{
 	name = GetOpenParenthesis_1
 	random = no
 	text = 
@@ -43,132 +21,6 @@ defined_text =
 			always = yes
 		}
 	}
-	
-}
-defined_text = 
-{
-	name = GetOpenParenthesis_2
-	random = no
-	text = 
-	{
-		localisation_key = iss_open_parenthesis
-		trigger = 
-		{
-			event_target:iss_country_2 =
-			{
-				tag = PREV
-			}
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	
-}
-defined_text = 
-{
-	name = GetOpenParenthesis_3
-	random = no
-	text = 
-	{
-		localisation_key = iss_open_parenthesis
-		trigger = 
-		{
-			event_target:iss_country_3 =
-			{
-				tag = PREV
-			}
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	
-}
-defined_text = 
-{
-	name = GetOpenParenthesis_4
-	random = no
-	text = 
-	{
-		localisation_key = iss_open_parenthesis
-		trigger = 
-		{
-			event_target:iss_country_4 =
-			{
-				tag = PREV
-			}
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	
-}
-defined_text = 
-{
-	name = GetOpenParenthesis_5
-	random = no
-	text = 
-	{
-		localisation_key = iss_open_parenthesis
-		trigger = 
-		{
-			event_target:iss_country_5 =
-			{
-				tag = PREV
-			}
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			always = yes
-		}
-	}
-	
-}
-defined_text = 
-{
-	name = GetCloseParenthesis
-	random = no
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			tag = CAS
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_close_parenthesis
-		trigger = 
-		{
-			check_variable = 
-			{
-				which = iss_score
-				value = 1
-			}
-		}
-	}
 }
 defined_text = 
 {
@@ -180,6 +32,54 @@ defined_text =
 		trigger = 
 		{
 			event_target:iss_country_1 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_1
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_1
+		trigger = 
+		{
+			event_target:iss_country_1 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_2
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_2 =
 			{
 				tag = PREV
 			}
@@ -220,6 +120,54 @@ defined_text =
 }
 defined_text = 
 {
+	name = GetTop_2
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_2
+		trigger = 
+		{
+			event_target:iss_country_2 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_3
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_3 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
 	name = GetCloseParenthesis_3
 	random = no
 	text = 
@@ -228,6 +176,54 @@ defined_text =
 		trigger = 
 		{
 			event_target:iss_country_3 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_3
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_3
+		trigger = 
+		{
+			event_target:iss_country_3 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_4
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_4 =
 			{
 				tag = PREV
 			}
@@ -268,6 +264,54 @@ defined_text =
 }
 defined_text = 
 {
+	name = GetTop_4
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_4
+		trigger = 
+		{
+			event_target:iss_country_4 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_5
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_5 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
 	name = GetCloseParenthesis_5
 	random = no
 	text = 
@@ -276,6 +320,2550 @@ defined_text =
 		trigger = 
 		{
 			event_target:iss_country_5 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_5
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_5
+		trigger = 
+		{
+			event_target:iss_country_5 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_6
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_6 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_6
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_6 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_6
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_6
+		trigger = 
+		{
+			event_target:iss_country_6 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_7
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_7 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_7
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_7 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_7
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_7
+		trigger = 
+		{
+			event_target:iss_country_7 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_8
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_8 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_8
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_8 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_8
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_8
+		trigger = 
+		{
+			event_target:iss_country_8 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_9
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_9 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_9
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_9 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_9
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_9
+		trigger = 
+		{
+			event_target:iss_country_9 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_10
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_10 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_10
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_10 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_10
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_10
+		trigger = 
+		{
+			event_target:iss_country_10 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_11
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_11 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_11
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_11 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_11
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_11
+		trigger = 
+		{
+			event_target:iss_country_11 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_12
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_12 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_12
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_12 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_12
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_12
+		trigger = 
+		{
+			event_target:iss_country_12 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_13
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_13 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_13
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_13 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_13
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_13
+		trigger = 
+		{
+			event_target:iss_country_13 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_14
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_14 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_14
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_14 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_14
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_14
+		trigger = 
+		{
+			event_target:iss_country_14 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_15
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_15 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_15
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_15 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_15
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_15
+		trigger = 
+		{
+			event_target:iss_country_15 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_16
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_16 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_16
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_16 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_16
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_16
+		trigger = 
+		{
+			event_target:iss_country_16 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_17
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_17 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_17
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_17 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_17
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_17
+		trigger = 
+		{
+			event_target:iss_country_17 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_18
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_18 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_18
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_18 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_18
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_18
+		trigger = 
+		{
+			event_target:iss_country_18 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_19
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_19 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_19
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_19 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_19
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_19
+		trigger = 
+		{
+			event_target:iss_country_19 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_20
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_20 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_20
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_20 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_20
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_20
+		trigger = 
+		{
+			event_target:iss_country_20 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_21
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_21 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_21
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_21 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_21
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_21
+		trigger = 
+		{
+			event_target:iss_country_21 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_22
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_22 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_22
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_22 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_22
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_22
+		trigger = 
+		{
+			event_target:iss_country_22 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_23
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_23 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_23
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_23 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_23
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_23
+		trigger = 
+		{
+			event_target:iss_country_23 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_24
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_24 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_24
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_24 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_24
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_24
+		trigger = 
+		{
+			event_target:iss_country_24 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_25
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_25 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_25
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_25 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_25
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_25
+		trigger = 
+		{
+			event_target:iss_country_25 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_26
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_26 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_26
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_26 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_26
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_26
+		trigger = 
+		{
+			event_target:iss_country_26 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_27
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_27 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_27
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_27 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_27
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_27
+		trigger = 
+		{
+			event_target:iss_country_27 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_28
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_28 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_28
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_28 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_28
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_28
+		trigger = 
+		{
+			event_target:iss_country_28 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_29
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_29 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_29
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_29 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_29
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_29
+		trigger = 
+		{
+			event_target:iss_country_29 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_30
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_30 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_30
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_30 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_30
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_30
+		trigger = 
+		{
+			event_target:iss_country_30 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_31
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_31 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_31
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_31 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_31
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_31
+		trigger = 
+		{
+			event_target:iss_country_31 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_32
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_32 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_32
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_32 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_32
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_32
+		trigger = 
+		{
+			event_target:iss_country_32 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_33
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_33 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_33
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_33 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_33
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_33
+		trigger = 
+		{
+			event_target:iss_country_33 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_34
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_34 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_34
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_34 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_34
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_34
+		trigger = 
+		{
+			event_target:iss_country_34 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_35
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_35 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_35
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_35 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_35
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_35
+		trigger = 
+		{
+			event_target:iss_country_35 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_36
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_36 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_36
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_36 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_36
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_36
+		trigger = 
+		{
+			event_target:iss_country_36 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_37
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_37 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_37
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_37 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_37
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_37
+		trigger = 
+		{
+			event_target:iss_country_37 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_38
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_38 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_38
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_38 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_38
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_38
+		trigger = 
+		{
+			event_target:iss_country_38 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_39
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_39 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_39
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_39 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_39
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_39
+		trigger = 
+		{
+			event_target:iss_country_39 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_40
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_40 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_40
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_40 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetTop_40
+	random = no
+	text = 
+	{
+		localisation_key = iss_top_40
+		trigger = 
+		{
+			event_target:iss_country_40 =
 			{
 				tag = PREV
 			}

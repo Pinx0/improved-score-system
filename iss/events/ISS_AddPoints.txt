@@ -13,16 +13,9 @@ country_event =
 	hidden = yes
 	trigger = 
 	{
-		OR = 
-		{
-			has_global_flag = iss_update_scores_requested
-			AND =
-			{
-				is_month = 0
-				NOT = { is_month = 1 }
-				had_global_flag = { flag = iss_added_score days = 32 }
-			}
-		}
+		is_month = 0
+		NOT = { is_month = 1 }
+		had_global_flag = { flag = iss_added_score days = 32 }
 	}
 	mean_time_to_happen = 
 	{

@@ -31,7 +31,7 @@ defined_text =
 		{
 			event_target:iss_country_1 =
 			{
-				tag = FROM
+				tag = PREV
 			}
 		}
 	}
@@ -56,7 +56,7 @@ defined_text =
 		{
 			event_target:iss_country_2 =
 			{
-				tag = FROM
+				tag = ROOT
 			}
 		}
 	}

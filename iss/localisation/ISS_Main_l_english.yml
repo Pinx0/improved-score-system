@@ -18,8 +18,6 @@
  iss_tier_3_provinces: "High priority provinces"
  iss_tier_4_provinces: "Top priority provinces"
  iss_scores.120.own: "Your score: [From.iss_score.GetValue] (+[From.iss_last_year_score.GetValue])"
- iss_score_total: "[Root.GetName][Prev.GetName][Prev.iss_score.GetValue]"
- iss_score_last_year: "[Prev.iss_last_year_score.GetValue]"
  province_type_1: "Capital Victory Point"
  province_type_2: "Contested Victory Point"
  province_type_3: "Regional Victory Point"

@@ -5,7 +5,7 @@ namespace = iss_scores
 #################
 
 #Refresh event targets by request
-ountry_event = 
+country_event = 
 {
 	id = iss_scores.199
 	title = "iss_empty_string"

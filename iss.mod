@@ -1,7 +1,7 @@
 name="Improved Score System"
-path="mod/iss"
+path="mod/iss/"
 tags={
 	"Gameplay"
 }
 picture="start.png"
-supported_version="1.25.*.*"
+supported_version="1.26.*.*"

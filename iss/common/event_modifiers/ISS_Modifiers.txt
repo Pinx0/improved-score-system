@@ -1,18 +1,20 @@
 province_type_1 = 
 {
-	local_production_efficiency = 0.01
-	global_trade_goods_size_modifier = 0.01
+	province_trade_power_value = 0.01
 	picture = "art_center_big"
 }
 province_type_2 = 
 {
-	local_production_efficiency = 0.01
+	province_trade_power_value = 0.01
+	picture = "art_center_med"
 }
 province_type_3 = 
 {
-	local_production_efficiency = 0.01
+	province_trade_power_value = 0.01
+	picture = "art_center_small"
 }
 province_type_4 = 
 {
-	local_production_efficiency = 0.01
+	province_trade_power_value = 0.01
+	picture = "art_center_small"
 }

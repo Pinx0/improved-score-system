@@ -456,7 +456,7 @@ country_event =
 						set_variable = 
 						{
 							which = add_score
-							value = 10
+							value = 4
 						}
 						multiply_variable =
 						{
@@ -738,7 +738,7 @@ country_event =
 						set_variable = 
 						{
 							which = add_score
-							value = 10
+							value = 2
 						}
 						multiply_variable =
 						{
@@ -1021,7 +1021,7 @@ country_event =
 						set_variable = 
 						{
 							which = add_score
-							value = 10
+							value = 1
 						}
 						multiply_variable =
 						{

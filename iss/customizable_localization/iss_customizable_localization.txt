@@ -4,22 +4,93 @@ defined_text =
 	random = no
 	text = 
 	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			always = yes
+		}
+	}
+	text = 
+	{
 		localisation_key = iss_empty_string
 		trigger = 
 		{
-			tag = CAS
+			always = yes
 		}
 	}
+	
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_1
+	random = no
 	text = 
 	{
 		localisation_key = iss_open_parenthesis
 		trigger = 
 		{
-			check_variable = 
+			event_target:iss_country_1 =
 			{
-				which = iss_score
-				value = 1
+				tag = FROM
 			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+	
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_2
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_2 =
+			{
+				tag = FROM
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+	
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_3
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_3 =
+			{
+				tag = FROM
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
 		}
 	}
 	

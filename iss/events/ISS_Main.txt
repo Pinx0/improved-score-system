@@ -75,7 +75,7 @@ country_event =
 	}
 	option = 
 	{
-		name = "iss_scores.120.prev"
+		name = "iss_empty_string"
 		country_event = { id = iss_scores.140 }
 	}
 	option = 
@@ -175,7 +175,7 @@ country_event =
 	}
 	option = 
 	{
-		name = "iss_scores.120.next"
+		name = "iss_empty_string"
 		country_event = { id = iss_scores.143 }
 	}
 	option = 

@@ -10,7 +10,7 @@ defined_text =
 			check_variable = 
 			{
 				which = iss_score
-				value = 0
+				value = 1
 			}
 		}
 	}
@@ -27,7 +27,7 @@ defined_text =
 			check_variable = 
 			{
 				which = iss_score
-				value = 0
+				value = 1
 			}
 		}
 	}
@@ -44,7 +44,7 @@ defined_text =
 			check_variable = 
 			{
 				which = iss_score
-				value = 0
+				value = 1
 			}
 		}
 	}
@@ -61,7 +61,7 @@ defined_text =
 			check_variable = 
 			{
 				which = iss_score
-				value = 0
+				value = 1
 			}
 		}
 	}

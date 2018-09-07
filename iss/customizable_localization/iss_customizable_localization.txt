@@ -56,7 +56,7 @@ defined_text =
 		{
 			event_target:iss_country_2 =
 			{
-				tag = ROOT
+				tag = PREV
 			}
 		}
 	}
@@ -81,7 +81,57 @@ defined_text =
 		{
 			event_target:iss_country_3 =
 			{
-				tag = FROM
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+	
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_4
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_4 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+	
+}
+defined_text = 
+{
+	name = GetOpenParenthesis_5
+	random = no
+	text = 
+	{
+		localisation_key = iss_open_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_5 =
+			{
+				tag = PREV
 			}
 		}
 	}
@@ -117,6 +167,126 @@ defined_text =
 				which = iss_score
 				value = 1
 			}
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_1
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_1 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_2
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_2 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_3
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_3 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_4
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_4 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
+		}
+	}
+}
+defined_text = 
+{
+	name = GetCloseParenthesis_5
+	random = no
+	text = 
+	{
+		localisation_key = iss_close_parenthesis
+		trigger = 
+		{
+			event_target:iss_country_5 =
+			{
+				tag = PREV
+			}
+		}
+	}
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			always = yes
 		}
 	}
 }

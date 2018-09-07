@@ -7,14 +7,7 @@ defined_text =
 		localisation_key = iss_empty_string
 		trigger = 
 		{
-			NOT = 
-			{
-				check_variable = 
-				{
-					which = iss_score
-					value = 1
-				}
-			}
+			tag = CAS
 		}
 	}
 	text = 
@@ -40,14 +33,7 @@ defined_text =
 		localisation_key = iss_empty_string
 		trigger = 
 		{
-			NOT = 
-			{
-				check_variable = 
-				{
-					which = iss_score
-					value = 1
-				}
-			}
+			tag = CAS
 		}
 	}
 	text = 

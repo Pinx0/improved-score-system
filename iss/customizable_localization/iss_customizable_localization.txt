@@ -4,6 +4,21 @@ defined_text =
 	random = no
 	text = 
 	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			NOT = 
+			{
+				check_variable = 
+				{
+					which = iss_score
+					value = 1
+				}
+			}
+		}
+	}
+	text = 
+	{
 		localisation_key = iss_open_parenthesis
 		trigger = 
 		{
@@ -14,19 +29,27 @@ defined_text =
 			}
 		}
 	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			
-		}
-	}
+	
 }
 defined_text = 
 {
 	name = GetCloseParenthesis
 	random = no
+	text = 
+	{
+		localisation_key = iss_empty_string
+		trigger = 
+		{
+			NOT = 
+			{
+				check_variable = 
+				{
+					which = iss_score
+					value = 1
+				}
+			}
+		}
+	}
 	text = 
 	{
 		localisation_key = iss_close_parenthesis
@@ -37,14 +60,6 @@ defined_text =
 				which = iss_score
 				value = 1
 			}
-		}
-	}
-	text = 
-	{
-		localisation_key = iss_empty_string
-		trigger = 
-		{
-			
 		}
 	}
 }

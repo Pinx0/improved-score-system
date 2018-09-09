@@ -65,7 +65,7 @@ install_iss =
 					province_id = 2999
 					province_id = 578
 					province_id = 529
-					province_id = 522
+					province_id = 536
 					province_id = 507
 				}
 			}

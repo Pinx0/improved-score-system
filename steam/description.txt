@@ -1,20 +1,20 @@
 [b]WHAT IS THIS?[/b]
 
-This mod aims to improve multiplayer competitive experience which usually ends up with a group of players allied and dominating all others.
+This mod aims to improve multiplayer competitive experience which usually ends up with a group of powerful players allied and dominating everyone, causing the dismotivation of the latter and thus the end of the game prematurely.
 
-The vanilla score from the game fails to represent correctly who is actually winning a game, especially in multiplayer, where quality of the troops adquires much more importance than development for instance.
+Another reason for this mod it is the fact that vanilla score system fails to represent correctly who is actually winning a game, especially in multiplayer, where quality of the troops adquires much more importance than development or fleet for instance.
 
-The idea is to have a bunch of key provinces scattered across the whole world, that gives yearly ticks to whoever is owning them in that moment.
+The idea of this mod to avoid such problems is to have a bunch of key provinces scattered across the whole world, that give yearly score ticks to whoever is owning them at that moment.
 
-Score is very exponential, so a game can never be decided before 1750, because only 50% of the points have been given by that time. Shall a major power arise and conquer the key provinces, and it could still overcome the previous winner.
+Also, the score each province provides is variable across time, being the least important at 1444 and then exponentially increasing, so a game can never be decided before 1750, because only 50% of the points have been given by that time. Shall a major power arise and conquer the key provinces, and it could still overcome the previous winner in the last minute.
 
-With this the mods achieves maximum competitiveness until last day and also forces top players to steal lands from each others to not only gain more points, but to prevent the others from winning them. Think of them as global victory cards.
+With this two factors combined, the mod tries to achieve maximum competitiveness until last day and also forces top players to steal lands from each other to not only gain more points, but to prevent the others from winning them, instead of simply conquering IA lands or abusing minor players. Think of it as global victory cards, being the same for everyone.
 
 Also, there are 4 types of provinces giving 10, 4, 2 and 1 base point each. The types stand for: major capitals (red), usually contested provinces (orange), and lastly regional (yellow) and local (green and blue) important provinces.
 
 [b]COMPATIBILITY[/b]
 
-This mod has been tested on 1.26 Mughals. As for other mods, any mod that doesn't alter mission graphics or structure should be compatible as this uses a 6th column.
+This mod has been tested on 1.26 Mughals. As for other mods, any mod that doesn't alter mission graphics or structure should be compatible as this uses a 6th column. The on_actions file is also used so mods that interfere with it may break the mod.
 
 [b]DETAILS[/b]
 

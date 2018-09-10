@@ -20,7 +20,7 @@ install_iss =
 					province_id = 50
 					province_id = 118
 					province_id = 112
-					province_id = 1
+					province_id = 12
 					province_id = 257
 					province_id = 151
 					province_id = 295
@@ -33,6 +33,7 @@ install_iss =
 					province_id = 541
 					province_id = 555
 					province_id = 563
+					province_id = 134
 				}
 			}
 			set_province_flag = iss_province_type_1
@@ -93,7 +94,7 @@ install_iss =
 					province_id = 104
 					province_id = 116
 					province_id = 125
-					province_id = 12
+					province_id = 1
 					province_id = 43
 					province_id = 153
 					province_id = 137
@@ -232,9 +233,9 @@ install_iss =
 				duration = -1
 			}
 		}
+		set_global_flag = iss_show_ia_scores
 		every_country = 
 		{
-			set_country_flag = iss_show_ia_scores
 			set_variable = 
 			{
 				which = iss_score

@@ -233,9 +233,10 @@ install_iss =
 				duration = -1
 			}
 		}
+		set_global_flag = iss_show_ia_scores
 		every_country = 
 		{
-			set_country_flag = iss_show_ia_scores
+			
 			set_variable = 
 			{
 				which = iss_score
